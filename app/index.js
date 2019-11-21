@@ -1,12 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from '../components/App.js';
-import MessageForm from '../components/MessageForm.js';
-import MessageContainer from '../components/MessageContainer.js';
-// import * as serviceWorker from './serviceWorker';
+import Chat from '../components/Chat.js';
 
 // rendering html on page
 ReactDOM.render(
-  <App/>,
-  document.getElementById('app')
+  <Chat/>,
+  document.getElementById('chat')
 );
